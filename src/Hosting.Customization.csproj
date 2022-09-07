@@ -4,7 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<PackageType>BuildingBlock</PackageType>
+		<PackageType>Dependency</PackageType>
 		<PackageId>Wiesenwischer.Hosting.Customization</PackageId>
 		<Title>Common customization for hosts.</Title>
 		<Authors>Zorica Dudarin, Marcus Dammann, Stefan Vogelsang</Authors>
