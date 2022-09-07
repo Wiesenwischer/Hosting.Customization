@@ -10,9 +10,6 @@
 		<Authors>Zorica Dudarin, Marcus Dammann, Stefan Vogelsang</Authors>
 		<Description>Extension methods for customization of hosts.</Description>
 		<PackageTags>EFCore</PackageTags>
-		<IncludeContentInPack>true</IncludeContentInPack>
-		<IncludeBuildOutput>false</IncludeBuildOutput>
-		<ContentTargetFolders>content</ContentTargetFolders>
 		<RepositoryUrl>https://github.com/Wiesenwischer/Hosting.Customization.git</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
@@ -20,7 +17,7 @@
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
-
+	
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
