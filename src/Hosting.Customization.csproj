@@ -4,6 +4,17 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<PackageType>Building Block</PackageType>
+		<PackageId>Hosting.Customization</PackageId>
+		<Title>Common customization for hosts.</Title>
+		<Authors>Zorica Dudarin, Marcus Dammann, Stefan Vogelsang</Authors>
+		<Description>Extension methods for customization of hosts.</Description>
+		<PackageTags>EFCore</PackageTags>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<RepositoryUrl>https://github.com/Wiesenwischer/Hosting.Customization.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<ItemGroup>
